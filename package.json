@@ -12,5 +12,18 @@
     "express": "^4.21.2"
   },
   "devDependencies": {},
-  "description": ""
-}
+    "description": "",
+    "builds": [
+      {
+        "src": "index.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "index.js"
+      }
+    ]
+  }
+
