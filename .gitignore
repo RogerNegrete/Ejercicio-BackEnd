@@ -1,6 +1,2 @@
 /node_modules
-/Controllers
-/datos
-/helpers
-/Modelos
-/Rutas
+package-lock.json
